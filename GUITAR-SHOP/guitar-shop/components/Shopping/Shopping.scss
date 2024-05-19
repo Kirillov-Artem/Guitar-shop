@@ -1,0 +1,46 @@
+.shopping-elem__name {
+    font-weight: bold;
+    padding: var(--spacing-medium);
+}
+
+.shopping-price {
+    color: var(--color-unaccent);
+    padding: var(--spacing-medium);
+}
+
+.total-price {
+    color: var(--color-unaccent);
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn-close img {
+    width: 25px;
+    height: 25px;
+}
+
+.shopping-container {
+    position: relative;
+    z-index: 999;
+    background-color: var(--color-white);
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    box-shadow: var(--box-shadow);
+}
